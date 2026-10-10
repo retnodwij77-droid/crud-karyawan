@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-bottom: 7px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.tombol {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background: #198754;
+  color: white;
+  cursor: pointer;
+}
+
+.kembali {
+  background: #6c757d;
+}
+
+.petunjuk {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.data-container {
+  max-width: 1100px;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.link-tombol {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #198754;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.tabel-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background: #e9ecef;
+}
+
+.btn-ubah,
+.btn-hapus {
+  display: inline-block;
+  padding: 7px 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+.btn-ubah {
+  background: #0d6efd;
+}
+
+.btn-hapus {
+  background: #dc3545;
+}
+
+/* Halaman Delete */
+.pesan-hapus {
+  text-align: center;
+  margin: 150px auto;
+  background: white;
+  padding: 40px;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pesan-hapus h2 {
+  margin-bottom: 20px;
+}
+
+.tombol-kembali {
+  display: inline-block;
+  background: #198754;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.tombol-kembali:hover {
+  background-color: #145c32;
+}

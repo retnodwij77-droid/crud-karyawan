@@ -2,7 +2,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$password = "123";
+$password = "123";//password bberbeda
 $database = "db_karyawan";
 
 $koneksi = mysqli_connect(
